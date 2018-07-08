@@ -23,6 +23,9 @@ class Input {
     var touch_event: TouchEvent;
     var gamepad_event: GamepadEvent;
 
+    public var mouse_x (default, null) : Float;
+    public var mouse_y (default, null) : Float;
+
     @:allow(snow.core.Runtime)
     var mod_state: ModState;
 
@@ -38,6 +41,9 @@ class Input {
         gamepad_event = new GamepadEvent();
         mod_state = new ModState();
         mod_state.none = true;
+
+        mouse_x = 0;
+        mouse_y = 0;
 
         //keys
 
@@ -407,6 +413,11 @@ class Input {
             _update_keystate();
             _update_gamepadstate();
             _update_mousestate();
+        }
+
+        if (_event.type == se_input && _event.input.type == ie_mouse) {
+            mouse_x = _event.input.mouse.x;
+            mouse_y = _event.input.mouse.y;
         }
 
     } //onevent
