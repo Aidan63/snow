@@ -127,15 +127,7 @@ but they aren't specific to SDL so they are used generically */
             case Keycodes.tab:       return Scancodes.name(Scancodes.tab);
             case Keycodes.space:     return Scancodes.name(Scancodes.space);
             case Keycodes.delete:    return Scancodes.name(Scancodes.delete);
-
-            default: {
-
-                var decoder = new haxe.Utf8();
-                    decoder.addChar(keycode);
-
-                return decoder.toString();
-
-            } //default
+            default:                 return new UnicodeString(String.fromCharCode(keycode));
 
         } //switch(keycode)
 
