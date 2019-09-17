@@ -10,11 +10,11 @@
     "tags": [ "cpp", "html5", "web", "webgl", "snow", "opengl", "openal", "sdl2", "android", "ios", "mac", "windows", "linux", "native" ],
     "dependencies": {
         "hxcpp"          : "gh:HaxeFoundation/hxcpp#2558f93",
-        "linc_opengl"    : "gh:aidan63/linc_opengl",
-        "linc_sdl"       : "gh:aidan63/linc_sdl",
-        "linc_stb"       : "gh:snowkit/linc_stb",
-        "linc_openal"    : "gh:snowkit/linc_openal",
-        "linc_ogg"       : "gh:snowkit/linc_ogg",
-        "linc_timestamp" : "gh:snowkit/linc_timestamp"
+        "linc_opengl"    : "git:https://github.com/Aidan63/linc_opengl as linc_opengl#1.0.0",
+        "linc_sdl"       : "git:https://github.com/Aidan63/linc_sdl as linc_sdl#1.0.0",
+        "linc_stb"       : "git:https://github.com/snowkit/linc_stb as linc_stb#1.0.0",
+        "linc_openal"    : "git:https://github.com/Aidan63/linc_openal as linc_openal#1.0.0",
+        "linc_ogg"       : "git:https://github.com/Aidan63/linc_ogg as linc_ogg#1.0.0",
+        "linc_timestamp" : "git:https://github.com/Aidan63/linc_timestamp as linc_timestamp#1.0.0"
     }
 }
