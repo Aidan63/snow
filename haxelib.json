@@ -10,7 +10,7 @@
     "tags": [ "cpp", "html5", "web", "webgl", "snow", "opengl", "openal", "sdl2", "android", "ios", "mac", "windows", "linux", "native" ],
     "dependencies": {
         "linc_sdl"       : "git:https://github.com/Aidan63/linc_sdl#b569de6 as linc_sdl#1.0.0",
-        "linc_stb"       : "git:https://github.com/snowkit/linc_stb#46ec9fb as linc_stb#1.0.0",
+        "linc_stb"       : "git:https://github.com/Aidan63/linc_stb#68c8d3e as linc_stb#1.0.0",
         "linc_openal"    : "git:https://github.com/snowkit/linc_openal#8626b4d as linc_openal#1.0.0",
         "linc_ogg"       : "git:https://github.com/snowkit/linc_ogg#21d4201 as linc_ogg#1.0.0",
         "linc_timestamp" : "git:https://github.com/snowkit/linc_timestamp#42a3d89 as linc_timestamp#1.0.0"
